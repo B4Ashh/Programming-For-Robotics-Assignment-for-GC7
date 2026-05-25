@@ -1,0 +1,64 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 3.385607428009497e-05 3.385617001763991e-05 27.85626894949232
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  wallThickness 0.02
+  wallHeight 0.5
+}
+Pioneer3dx {
+  hidden position_0_0 24.56763880578218
+  hidden position_0_1 3144.416973266359
+  hidden position_0_2 4076.5150557186103
+  hidden rotation_1 0.36246510859444825 -0.6590216316420872 -0.6590216491735426 2.4461202497599284
+  hidden position_1_0 -6420.236914778485
+  hidden rotation_2 1 0 0 1.178469159052591
+  hidden rotation_4 -0.5059236921257945 0.50592376333502 -0.6986289168354936 1.9219822752800706
+  hidden rotation_9 -0.7031409692414832 0.7031410045566081 0.10576154823598134 3.3523324314596943
+  translation -0.613232089015984 -2.3549886334951036 0.09482169890273401
+  rotation 0.017424551280859037 0.02267929779458775 0.9995909335644281 -1.3218754356876463
+  controller "vacuum_controller"
+  extensionSlot [
+    Compass {
+    }
+    GPS {
+    }
+  ]
+}
+WoodenBox {
+  translation 0 -3.44 0.3
+}
+WoodenBox {
+  translation 2.19 0 0.3
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 1.98 2.9 0.3
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation -1.41 -3.12 0.3
+  name "wooden box(3)"
+}
+WoodenBox {
+  name "wooden box(4)"
+}
+WoodenBox {
+  translation -2.64 0 0.3
+  name "wooden box(5)"
+}
